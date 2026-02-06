@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="第 1 页" id="o8bJzVjYDrpOdoJjKkoU">
+    <mxGraphModel dx="1212" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=2;dashed=1;dashPattern=5 5;align=left;verticalAlign=top;fontSize=14;fontStyle=1;" value="AWS Cloud Region" vertex="1">
+          <mxGeometry height="500" width="600" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-3" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" value="RDS MySQL" vertex="1">
+          <mxGeometry height="80" width="80" x="280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-4" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.documentdb_with_mongodb_compatibility;" value="DocumentDB" vertex="1">
+          <mxGeometry height="80" width="80" x="550" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-5" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eks;" value="Amazon EKS 核心" vertex="1">
+          <mxGeometry height="80" width="80" x="415" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#4472C4;fontColor=#ffffff;fontSize=12;" value="业务容器 A" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#4472C4;fontColor=#ffffff;fontSize=12;" value="业务容器 B" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#4472C4;fontColor=#ffffff;fontSize=12;" value="业务容器 C" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=#4472C4;fontColor=#ffffff;fontSize=12;" value="业务容器 D" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=#ED7D31;fontColor=#ffffff;fontSize=12;" value="用户 (Web端)" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-11" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" value="ALB 负载均衡" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=#ED7D31;fontColor=#ffffff;fontSize=12;" value="智能硬件设备" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-13" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" value="Amazon S3" vertex="1">
+          <mxGeometry height="93" width="76.5" x="850" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-14" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-15" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-16" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-5" value="转发请求">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-17" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-5" value="心跳同步">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-18" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-19" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-20" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-11" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-21" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-22" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="sgmVbMFEcOBC7JGouPxv-13" value="访问存储">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgmVbMFEcOBC7JGouPxv-23" edge="1" parent="1" source="sgmVbMFEcOBC7JGouPxv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#999999;strokeWidth=1;" target="sgmVbMFEcOBC7JGouPxv-13" value="Direct Upload">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
